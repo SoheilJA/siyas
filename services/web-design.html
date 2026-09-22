@@ -1,677 +1,1377 @@
-<!DOCTYPE html>
+<!doctype html>
 <html dir="rtl" lang="fa">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>طراحی سایت و برنامه‌نویسی | سی یاس — وب‌سایت شرکتی و فروشگاهی مدرن</title>
-<meta name="description" content="کارگاه طراحی سایت سی یاس: UI/UX اختصاصی، توسعه‌ی ریسپانسیو و سریع، پنل مدیریت محتوا، سئو فنی پایه، امنیت و پشتیبانی — وب‌سایت‌های شرکتی و فروشگاهی مدرن در مشهد و تهران.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#0a0a0c">
-<link rel="canonical" href="https://www.siyas.ir/services/web-design">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="fa_IR">
-<meta property="og:url" content="https://www.siyas.ir/services/web-design">
-<meta property="og:site_name" content="سی یاس">
-<meta property="og:title" content="طراحی سایت و برنامه‌نویسی | سی یاس">
-<meta property="og:description" content="از وایرفریم تا لانچ — UI/UX اختصاصی، ریسپانسیو، سئو فنی و پشتیبانی.">
-<meta property="og:image" content="https://www.siyas.ir/og-cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="طراحی سایت و برنامه‌نویسی | سی یاس">
-<meta name="twitter:description" content="طراحی و توسعه‌ی وب‌سایت‌های شرکتی و فروشگاهی مدرن.">
-<meta name="twitter:image" content="https://www.siyas.ir/og-cover.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      طراحی سایت و برنامه‌نویسی | سی یاس — وب‌سایت شرکتی و فروشگاهی مدرن
+    </title>
+    <meta
+      name="description"
+      content="کارگاه طراحی سایت سی یاس: UI/UX اختصاصی، توسعه‌ی ریسپانسیو و سریع، پنل مدیریت محتوا، سئو فنی پایه، امنیت و پشتیبانی — وب‌سایت‌های شرکتی و فروشگاهی مدرن در مشهد و تهران."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0a0a0c" />
+    <link rel="canonical" href="https://www.siyas.ir/services/web-design" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta
+      property="og:url"
+      content="https://www.siyas.ir/services/web-design"
+    />
+    <meta property="og:site_name" content="سی یاس" />
+    <meta property="og:title" content="طراحی سایت و برنامه‌نویسی | سی یاس" />
+    <meta
+      property="og:description"
+      content="از وایرفریم تا لانچ — UI/UX اختصاصی، ریسپانسیو، سئو فنی و پشتیبانی."
+    />
+    <meta property="og:image" content="https://www.siyas.ir/og-cover.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="طراحی سایت و برنامه‌نویسی | سی یاس" />
+    <meta
+      name="twitter:description"
+      content="طراحی و توسعه‌ی وب‌سایت‌های شرکتی و فروشگاهی مدرن."
+    />
+    <meta name="twitter:image" content="https://www.siyas.ir/og-cover.jpg" />
 
-<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://picsum.photos">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://picsum.photos" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+    />
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-tailwind.config = { theme: { extend: {
-  colors: { ink:'#0a0a0c', ink2:'#121214',
-    gold:{ DEFAULT:'#c9a15a', light:'#e8c47a', deep:'#8f6b2c' },
-    royal:{ DEFAULT:'#2e63ff', light:'#3b7bff' }, cream:'#f5f3ee' },
-  fontFamily:{ sans:['Vazirmatn','sans-serif'], latin:['Marcellus','serif'] }
-} } }
-</script>
+    <link rel="stylesheet" href="../assets/css/output.css" />
 
-<link rel="stylesheet" href="../assets/css/main.css">
-
-<script type="application/ld+json">
-{ "@context":"https://schema.org", "@graph":[
-  { "@type":"Service", "name":"طراحی سایت و برنامه‌نویسی", "serviceType":"طراحی و توسعه وب‌سایت",
-    "description":"طراحی و توسعه‌ی وب‌سایت‌های شرکتی و فروشگاهی مدرن",
-    "provider": { "@id":"https://www.siyas.ir/#organization" },
-    "areaServed":["مشهد","تهران"], "url":"https://www.siyas.ir/services/web-design" },
-  { "@type":"BreadcrumbList", "itemListElement":[
-    { "@type":"ListItem", "position":1, "name":"خانه", "item":"https://www.siyas.ir/" },
-    { "@type":"ListItem", "position":2, "name":"خدمات", "item":"https://www.siyas.ir/#services" },
-    { "@type":"ListItem", "position":3, "name":"طراحی سایت", "item":"https://www.siyas.ir/services/web-design" } ] }
-] }
-</script>
-
-<style>
-/* ===== طراحی سایت — مرورگر/دوآتلس (bw-) ===== */
-.bw{ border-radius:1rem; border:1px solid rgba(245,243,238,.14); background:#0e0e11;
-  overflow:hidden; box-shadow:0 32px 80px -32px rgba(0,0,0,.85); }
-.bw-bar{ display:flex; align-items:center; gap:.75rem; padding:.65rem .9rem;
-  border-bottom:1px solid rgba(255,255,255,.08); background:rgba(255,255,255,.03); direction:ltr; }
-.dots{ display:flex; gap:.4rem; flex:none; }
-.dots i{ width:.68rem; height:.68rem; border-radius:50%; }
-.dots i:nth-child(1){ background:#ff5f57; } .dots i:nth-child(2){ background:#febc2e; } .dots i:nth-child(3){ background:#28c840; }
-.bw-url{ flex:1; font-family:ui-monospace,Menlo,monospace; font-size:.72rem; color:rgba(245,243,238,.6);
-  background:rgba(255,255,255,.05); border-radius:.5rem; padding:.4rem .75rem; overflow:hidden;
-  white-space:nowrap; text-align:left; }
-.caret{ display:inline-block; width:7px; height:.95em; background:var(--gold-l);
-  vertical-align:-2px; margin-left:2px; animation:crt 1s steps(1) infinite; }
-@keyframes crt{ 50%{ opacity:0 } }
-.pixbg{ background-image:linear-gradient(rgba(59,123,255,.055) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(59,123,255,.055) 1px, transparent 1px);
-  background-size:28px 28px; }
-
-/* نشان‌های شناور */
-.badge-f{ animation:bdg 6s ease-in-out infinite alternate; }
-.badge-f:nth-child(2){ animation-delay:-1.5s; } .badge-f:nth-child(3){ animation-delay:-3s; }
-.badge-f:nth-child(4){ animation-delay:-4.5s; }
-@keyframes bdg{ from{ transform:translateY(-5px) } to{ transform:translateY(6px) } }
-
-/* مرحله‌ساز وایرفریم */
-.wf{ position:relative; aspect-ratio:16/10; border-radius:1rem; border:1px solid rgba(245,243,238,.1);
-  overflow:hidden; background:#0c0c0f; }
-.wf-layer{ position:absolute; inset:0; padding:1.4rem; display:grid; gap:1rem;
-  grid-template-rows:auto 1fr auto; opacity:0; transform:scale(.985);
-  transition:opacity .7s ease, transform .7s ease; pointer-events:none; }
-.wf-layer.on{ opacity:1; transform:none; }
-.wf-box{ border-radius:.6rem; }
-.wf-wire .wf-box{ border:1px dashed rgba(245,243,238,.3); }
-.wf-live .wf-box{ border:1px solid rgba(201,161,90,.3); }
-.wf-live .hero-slot{ box-shadow:0 0 50px -12px rgba(201,161,90,.45); }
-.wf-steps{ display:flex; justify-content:center; gap:2rem; margin-top:1.25rem; }
-.wf-step{ font-size:.78rem; color:rgba(245,243,238,.4); display:flex; align-items:center; gap:.5rem; transition:color .3s; }
-.wf-step i{ width:.55rem; height:.55rem; border-radius:50%; border:1px solid rgba(245,243,238,.3); }
-.wf-step.on{ color:var(--gold-l); } .wf-step.on i{ background:var(--gold-l); border-color:var(--gold-l); box-shadow:0 0 10px rgba(232,196,122,.5); }
-
-/* اینسپکتور */
-.insp{ position:sticky; top:110px; border-radius:1.25rem; padding:1.4rem 1.1rem;
-  font-family:ui-monospace,Menlo,monospace; direction:ltr; text-align:left; }
-.insp-h{ font-size:.62rem; letter-spacing:.2em; color:rgba(245,243,238,.4); padding-bottom:.8rem;
-  border-bottom:1px solid rgba(245,243,238,.1); margin-bottom:.6rem; }
-.insp-item{ display:flex; gap:.6rem; align-items:center; padding:.5rem .6rem; border-radius:.5rem;
-  font-size:.76rem; color:rgba(245,243,238,.5); border-left:2px solid transparent; transition:all .3s; }
-.insp-item::before{ content:'–'; color:rgba(245,243,238,.3); }
-.insp-item.on{ color:var(--gold-l); background:rgba(201,161,90,.08); border-left-color:var(--gold-l); }
-.insp-item.on::before{ content:'▸'; }
-.key-chip{ font-family:ui-monospace,Menlo,monospace; direction:ltr; font-size:.62rem;
-  color:var(--royal-light); border:1px solid rgba(59,123,255,.35); border-radius:.4rem;
-  padding:.18rem .55rem; display:inline-block; }
-
-/* ترمینال */
-.term{ direction:ltr; text-align:left; font-family:ui-monospace,Menlo,monospace;
-  font-size:.8rem; line-height:2; }
-.term .pr{ color:var(--gold-l); } .term .ok{ color:var(--royal-light); } .term .tx{ color:rgba(245,243,238,.8); }
-.term .ln{ opacity:0; transform:translateY(4px); transition:opacity .5s, transform .5s; }
-.term.show .ln{ opacity:1; transform:none; }
-.term .ln:nth-child(2){ transition-delay:.2s } .term .ln:nth-child(3){ transition-delay:.45s } .term .ln:nth-child(4){ transition-delay:.7s }
-
-/* تعرفه */
-.env{ font-family:ui-monospace,Menlo,monospace; direction:ltr; font-size:.6rem;
-  padding:.22rem .6rem; border-radius:.4rem; letter-spacing:.12em; }
-.env-base{ color:rgba(245,243,238,.6); border:1px solid rgba(245,243,238,.2); }
-.env-pro{ color:#171208; background:linear-gradient(135deg,#f0d48d,#c9a15a); }
-.env-shop{ color:var(--royal-light); border:1px solid rgba(59,123,255,.4); }
-</style>
-
-<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-<script defer src="../assets/js/app.js"></script>
-</head>
-
-<body class="antialiased">
-
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <linearGradient id="gradGold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f0d48d"/><stop offset="1" stop-color="#c9a15a"/>
-    </linearGradient>
-  </defs>
-  <symbol id="i-gem" viewBox="0 0 24 24"><path stroke="url(#gradGold)" d="M6 3h12l4 6-10 13L2 9l4-6z"/><path stroke="url(#gradGold)" d="M11 3 8 9l4 13 4-13-3-6"/><path stroke="url(#gradGold)" d="M2 9h20"/></symbol>
-  <symbol id="i-package" viewBox="0 0 24 24"><path d="M12 3 20 7.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12 20 7.5M12 12 4 7.5M12 12v9"/></symbol>
-  <symbol id="i-logo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M3 12c2.6-4.2 6-6.3 9-6.3s6.4 2.1 9 6.3c-2.6 4.2-6 6.3-9 6.3S5.6 16.2 3 12z"/></symbol>
-  <symbol id="i-media" viewBox="0 0 24 24"><rect x="2.5" y="6.5" width="13" height="11" rx="2.5"/><path d="M15.5 10.5 21 7.5v9l-5.5-3"/></symbol>
-  <symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M3 9h18"/><path d="M6.5 6.75h.01M9.5 6.75h.01"/><path d="m9.8 12.2-1.8 1.8 1.8 1.8M14.2 12.2l1.8 1.8-1.8 1.8"/></symbol>
-  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 19 5.8v5.4c0 4.6-3 7.6-7 9-4-1.4-7-4.4-7-9V5.8L12 3z"/><path d="m9 11.6 2.1 2.1 4.2-4.2"/></symbol>
-  <symbol id="i-check" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5L19.5 6.5"/></symbol>
-  <symbol id="i-arr-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
-  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17" cy="7" r=".7" fill="currentColor" stroke="none"/></symbol>
-  <symbol id="i-telegram" viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 22-2z"/></symbol>
-  <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 7.5v.01M12 16v-5"/><path d="M12 11c.6-1.6 4-1.8 4 .6V16"/></symbol>
-  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.9 13.3L3 21l4.8-1.1A9 9 0 1 0 12 3z"/><path d="M9.2 8.5c.3-.6 1.4-.7 1.7.1l.5 1.2c.1.3 0 .5-.2.7l-.5.5c.5 1.1 1.4 2 2.5 2.5l.5-.5c.2-.2.5-.3.7-.2l1.3.6c.7.3.6 1.3.1 1.6-.7.5-1.7.7-2.7.4-1.7-.5-3.4-1.8-4.4-3.6-.7-1.3-.8-2.4-.5-3.3z"/></symbol>
-</svg>
-
-<div class="orb orb-gold" aria-hidden="true"></div>
-<div class="orb orb-blue" aria-hidden="true"></div>
-<div class="noise" aria-hidden="true"></div>
-<div id="progressBar" aria-hidden="true"></div>
-<div id="cDot" aria-hidden="true"></div>
-<div id="cRing" aria-hidden="true"></div>
-
-<a href="#main" class="sr-only focus:not-sr-only fixed top-3 start-3 z-[500] bg-gold text-ink px-4 py-2 rounded-lg text-sm">پرش به محتوا</a>
-
-<header id="siteNav" class="fixed top-0 inset-x-0 z-50">
-  <div class="container-x">
-    <div class="nav-inner mt-4 rounded-2xl h-16 flex items-center justify-between px-4 sm:px-6">
-      <a href="../index.html" class="flex items-center gap-3" aria-label="سی یاس — صفحه‌ی اصلی">
-        <svg class="w-8 h-8" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-gem"/></svg>
-        <span class="flex flex-col leading-none">
-          <span class="text-lg font-extrabold">سی یاس</span>
-          <span class="font-latin text-[9px] tracking-[0.45em] text-gold/90 mt-1" dir="ltr">SIYAS</span>
-        </span>
-      </a>
-      <nav class="hidden lg:flex items-center gap-8" aria-label="ناوبری اصلی">
-        <a href="../index.html" class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2">خانه</a>
-        <a href="../about.html" class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2">درباره ما</a>
-        <a href="../index.html#services" class="nav-link active text-sm text-cream/75 hover:text-cream transition-colors py-2">خدمات</a>
-        <a href="../index.html#portfolio" class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2">نمونه‌کارها</a>
-        <a href="../contact.html" class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2">تماس با ما</a>
-      </nav>
-      <div class="flex items-center gap-3">
-        <a href="../contact.html" data-magnetic class="btn-primary btn-sm hidden sm:inline-flex">مشاوره رایگان</a>
-        <button id="menuBtn" class="lg:hidden p-2" aria-label="بازکردن منو" aria-expanded="false" aria-controls="mobileMenu">
-          <span class="burger"><i></i><i></i></span>
-        </button>
-      </div>
-    </div>
-  </div>
-</header>
-
-<div id="mobileMenu" aria-label="منوی موبایل">
-  <nav class="flex flex-col gap-1" aria-label="ناوبری موبایل">
-    <a href="../index.html" class="m-link m-item">خانه</a>
-    <a href="../about.html" class="m-link m-item">درباره ما</a>
-    <a href="../index.html#services" class="m-link m-item">خدمات</a>
-    <a href="../index.html#portfolio" class="m-link m-item">نمونه‌کارها</a>
-    <a href="../contact.html" class="m-link m-item">تماس با ما</a>
-  </nav>
-  <div class="m-item mt-auto pt-10">
-    <a href="../contact.html" class="btn-primary w-full justify-center">مشاوره رایگان</a>
-    <p class="text-center text-xs text-cream/45 mt-6" dir="ltr">www.siyas.ir</p>
-  </div>
-</div>
-
-<main id="main" class="relative z-[1]">
-
-<!-- ============ HERO — داخل مرورگر ============ -->
-<section class="relative pt-32 sm:pt-36 pb-16">
-  <div class="container-x">
-    <div class="max-w-4xl mx-auto" data-reveal>
-
-      <div class="bw">
-        <div class="bw-bar">
-          <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span class="bw-url"><span id="bwUrlText"></span><span class="caret" id="bwCaret" aria-hidden="true"></span></span>
-        </div>
-        <div class="pixbg p-8 sm:p-12 text-center">
-          <p class="num-latin" dir="ltr">SERVICE 04 / 04 — WEB WORKSHOP</p>
-          <h1 class="mt-3 font-black leading-[1.3] text-[clamp(2.2rem,5.4vw,3.6rem)]">
-            طراحی <span class="gold-word">سایت</span> و برنامه‌نویسی
-          </h1>
-          <p class="mt-4 text-lg font-bold text-royal-light">ویترین دیجیتالِ برند شما</p>
-          <p class="mt-5 text-cream/70 leading-9 max-w-xl mx-auto">
-            وب‌سایتی سریع، امن و ریسپانسیو — دقیقاً به اندازه‌ی هویت بصری‌تان اختصاصی؛
-            از وایرفریم تا لانچ و پشتیبانی، همه‌ی مراحل شفاف و قابل‌رصد.
-          </p>
-          <div class="mt-8 flex flex-wrap justify-center gap-4">
-            <a href="../contact.html" data-magnetic class="btn-primary">استارت پروژه</a>
-            <a href="#pricing" data-magnetic class="btn-ghost">پلن‌های توسعه</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-8 flex flex-wrap justify-center gap-3" data-reveal>
-        <span class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2">
-          <svg class="ic w-3.5 h-3.5 text-royal-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-web"/></svg>ریسپانسیو کامل</span>
-        <span class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2">
-          <svg class="ic w-3.5 h-3.5 text-royal-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg>امنیت و پشتیبانی</span>
-        <span class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2">
-          <svg class="ic w-3.5 h-3.5 text-royal-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-gem"/></svg>UI/UX اختصاصی</span>
-        <span class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2">
-          <svg class="ic w-3.5 h-3.5 text-royal-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>سئو فنی پایه</span>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<div class="hairline" aria-hidden="true"></div>
-
-<!-- ============ وایرفریم تا لانچ ============ -->
-<section id="wfSection" class="relative py-20 sm:py-28" aria-labelledby="wf-title">
-  <div class="container-x">
-    <div class="max-w-2xl" data-reveal>
-      <div class="flex items-center gap-3">
-        <span class="sec-rule"></span>
-        <span class="sec-eyebrow">پروسه‌ی ساخت — زنده</span>
-        <span class="sec-latin ms-auto" dir="ltr">BUILD PIPELINE</span>
-      </div>
-      <h2 id="wf-title" class="mt-5 font-extrabold leading-[1.45] text-[clamp(1.8rem,4vw,2.7rem)]">از وایرفریم تا لانچ</h2>
-      <p class="mt-6 text-cream/65 leading-9">با اسکرول در این بخش، سه مرحله‌ی ساختِ صفحه را همان‌طور که پیش می‌روید، ببینید.</p>
-    </div>
-
-    <div class="max-w-4xl mx-auto mt-12" data-reveal>
-      <div class="wf" id="wfStage" aria-hidden="true">
-        <div class="wf-layer wf-wire on" data-step="0">
-          <div class="wf-box" style="height:1.6rem; width:38%; background:rgba(245,243,238,.05);"></div>
-          <div class="wf-box hero-slot"></div>
-          <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;">
-            <div class="wf-box" style="height:3.4rem;"></div>
-            <div class="wf-box" style="height:3.4rem;"></div>
-            <div class="wf-box" style="height:3.4rem;"></div>
-          </div>
-        </div>
-        <div class="wf-layer wf-design" data-step="1">
-          <div class="wf-box flex items-center gap-2 px-3" style="height:1.6rem; width:38%; background:rgba(201,161,90,.1); border:1px solid rgba(201,161,90,.3);">
-            <svg class="w-3 h-3 text-gold-light" viewBox="0 0 24 24"><use href="#i-gem"/></svg>
-            <span class="h-1 w-14 rounded bg-white/20"></span>
-          </div>
-          <div class="wf-box hero-slot flex flex-col items-center justify-center gap-2" style="background:linear-gradient(160deg,rgba(201,161,90,.12),rgba(59,123,255,.06)); border:1px solid rgba(201,161,90,.28);">
-            <span class="h-2 w-32 rounded bg-white/25"></span>
-            <span class="h-1.5 w-20 rounded bg-white/15"></span>
-          </div>
-          <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;">
-            <div class="wf-box" style="height:3.4rem; background:rgba(59,123,255,.08); border:1px solid rgba(59,123,255,.25);"></div>
-            <div class="wf-box" style="height:3.4rem; background:rgba(59,123,255,.08); border:1px solid rgba(59,123,255,.25);"></div>
-            <div class="wf-box" style="height:3.4rem; background:rgba(59,123,255,.08); border:1px solid rgba(59,123,255,.25);"></div>
-          </div>
-        </div>
-        <div class="wf-layer wf-live" data-step="2">
-          <div class="wf-box flex items-center gap-2 px-3" style="height:1.6rem; width:38%; background:rgba(201,161,90,.12);">
-            <svg class="w-3 h-3 text-gold-light" viewBox="0 0 24 24"><use href="#i-gem"/></svg>
-            <span class="h-1 w-14 rounded bg-gold/50"></span>
-          </div>
-          <div class="wf-box hero-slot flex flex-col items-center justify-center gap-2.5" style="background:linear-gradient(160deg,rgba(201,161,90,.18),rgba(59,123,255,.09));">
-            <svg class="w-8 h-8" viewBox="0 0 24 24"><use href="#i-gem"/></svg>
-            <span class="h-2 w-36 rounded bg-white/30"></span>
-            <span class="h-1.5 w-24 rounded bg-white/20"></span>
-            <span class="h-2 w-24 rounded-full mt-1" style="background:linear-gradient(135deg,#f0d48d,#c9a15a);"></span>
-          </div>
-          <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;">
-            <div class="wf-box flex flex-col gap-1.5 p-2 justify-center" style="height:3.4rem; background:rgba(59,123,255,.1);"><span class="h-1 w-8 rounded bg-gold/60"></span><span class="h-1 w-12 rounded bg-white/20"></span></div>
-            <div class="wf-box flex flex-col gap-1.5 p-2 justify-center" style="height:3.4rem; background:rgba(59,123,255,.1);"><span class="h-1 w-8 rounded bg-gold/60"></span><span class="h-1 w-12 rounded bg-white/20"></span></div>
-            <div class="wf-box flex flex-col gap-1.5 p-2 justify-center" style="height:3.4rem; background:rgba(59,123,255,.1);"><span class="h-1 w-8 rounded bg-gold/60"></span><span class="h-1 w-12 rounded bg-white/20"></span></div>
-          </div>
-        </div>
-      </div>
-      <div class="wf-steps" aria-hidden="true">
-        <span class="wf-step on" data-step="0"><i></i>وایرفریم</span>
-        <span class="wf-step" data-step="1"><i></i>طراحی رابط</span>
-        <span class="wf-step" data-step="2"><i></i>اجراه‌ی زنده</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="hairline" aria-hidden="true"></div>
-
-<!-- ============ اینسپکتور ویژگی‌ها ============ -->
-<section class="relative py-20 sm:py-28" aria-labelledby="insp-title">
-  <div class="container-x">
-    <div class="grid lg:grid-cols-[1fr,300px] gap-12">
-
-      <div>
-        <div class="max-w-xl" data-reveal>
-          <div class="flex items-center gap-3">
-            <span class="sec-rule"></span>
-            <span class="sec-eyebrow">ویژگی‌های استاندارد</span>
-          </div>
-          <h2 id="insp-title" class="mt-5 font-extrabold leading-[1.45] text-[clamp(1.8rem,4vw,2.7rem)]">چه چیزهایی، پیش‌فرضِ هر پروژه است؟</h2>
-        </div>
-
-        <div class="mt-10 space-y-14">
-          <article data-insp="responsive" data-reveal>
-            <span class="key-chip">responsive</span>
-            <h3 class="mt-3 text-xl font-extrabold">ریسپانسیو کامل</h3>
-            <p class="mt-3 text-cream/65 leading-9 max-w-xl">از موبایل تا مانیتور بزرگ؛ طراحی و تست روی تمام اندازه‌های رایج، با اولویتِ تجربه‌ی موبایل.</p>
-          </article>
-          <article data-insp="performance" data-reveal>
-            <span class="key-chip">performance</span>
-            <h3 class="mt-3 text-xl font-extrabold">سرعت و کارایی</h3>
-            <p class="mt-3 text-cream/65 leading-9 max-w-xl">کد بهینه، تصاویر فشرده و بارگذاری هوشمند — چون هر ثانیه‌ی تأخیر، مشتری می‌برد.</p>
-          </article>
-          <article data-insp="cms" data-reveal>
-            <span class="key-chip">cms</span>
-            <h3 class="mt-3 text-xl font-extrabold">پنل مدیریت محتوا</h3>
-            <p class="mt-3 text-cream/65 leading-9 max-w-xl">خودتان محتوای سایت را به‌روز کنید؛ بدون نیاز به ما، بدون نیاز به کدنویسی.</p>
-          </article>
-          <article data-insp="seo" data-reveal>
-            <span class="key-chip">seo</span>
-            <h3 class="mt-3 text-xl font-extrabold">سئو فنی پایه</h3>
-            <p class="mt-3 text-cream/65 leading-9 max-w-xl">ساختار معنایی، متاها، سایت‌مپ و سرعت — پایه‌ای که دیده‌شدن شما در گوگل روی آن ساخته می‌شود.</p>
-          </article>
-          <article data-insp="security" data-reveal>
-            <span class="key-chip">security</span>
-            <h3 class="mt-3 text-xl font-extrabold">امنیت</h3>
-            <p class="mt-3 text-cream/65 leading-9 max-w-xl">HTTPS، پشتیبان‌گیری و سخت‌سازی استاندارد — سایتِ شما، قلعه‌ی شما.</p>
-          </article>
-          <article data-insp="support" data-reveal>
-            <span class="key-chip">support</span>
-            <h3 class="mt-3 text-xl font-extrabold">آموزش و پشتیبانی</h3>
-            <p class="mt-3 text-cream/65 leading-9 max-w-xl">تحویل با آموزش تیم شما؛ و همراهی توافق‌شده پس از لانچ — بدون بهانه‌ی فنی.</p>
-          </article>
-        </div>
-      </div>
-
-      <aside class="hidden lg:block" aria-hidden="true">
-        <div class="insp glass gborder">
-          <p class="insp-h">FEATURES — INSPECTOR</p>
-          <div class="space-y-1">
-            <p class="insp-item on" data-key="responsive">responsive</p>
-            <p class="insp-item" data-key="performance">performance</p>
-            <p class="insp-item" data-key="cms">cms</p>
-            <p class="insp-item" data-key="seo">seo</p>
-            <p class="insp-item" data-key="security">security</p>
-            <p class="insp-item" data-key="support">support</p>
-          </div>
-          <p class="insp-h mt-4 pt-3 border-t border-white/10">STATUS: <span class="text-gold-light">INCLUDED</span></p>
-        </div>
-      </aside>
-
-    </div>
-  </div>
-</section>
-
-<div class="hairline" aria-hidden="true"></div>
-
-<!-- ============ کارهای مرتبط — پنجره‌های مینی ============ -->
-<section class="relative py-20 sm:py-28" aria-labelledby="rel-title">
-  <div class="container-x">
-    <div class="flex flex-wrap items-end justify-between gap-6" data-reveal>
-      <div>
-        <span class="sec-eyebrow">تب‌های بازِ دیگران</span>
-        <h2 id="rel-title" class="mt-4 font-extrabold leading-[1.45] text-[clamp(1.7rem,3.8vw,2.5rem)]">نمونه‌کارهای طراحی سایت</h2>
-      </div>
-      <a href="../index.html?cat=web#portfolio" class="svc-link group">آرشیو کامل
-        <svg class="ic w-4 h-4 transition-transform group-hover:-translate-x-1" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arr-left"/></svg></a>
-    </div>
-
-    <div class="grid sm:grid-cols-2 gap-8 mt-12" data-reveal-group>
-      <a href="../index.html?cat=web#portfolio" class="group block" data-reveal-item>
-        <div class="bw">
-          <div class="bw-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
-            <span class="bw-url">congress-hospital.ir</span></div>
-          <img src="https://picsum.photos/seed/siyas-web-1/800/500.jpg" alt="وب‌سایت کنگره‌ی ملی ساخت بیمارستان و مدیریت منابع و تجهیزات پزشکی تهران" loading="lazy" decoding="async" class="w-full aspect-[16/10] object-cover group-hover:scale-[1.03] transition-transform duration-700">
-        </div>
-        <div class="flex items-center justify-between mt-4">
-          <div><h3 class="font-bold">وب‌سایت کنگره‌ی ملی ساخت بیمارستان</h3><p class="text-xs text-cream/50 mt-1">کنگره‌ی ملی — تهران</p></div>
-          <span class="chip">طراحی سایت</span>
-        </div>
-      </a>
-      <a href="../index.html?cat=web#portfolio" class="group block" data-reveal-item>
-        <div class="bw">
-          <div class="bw-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
-            <span class="bw-url">corporate-demo.ir</span></div>
-          <img src="https://picsum.photos/seed/siyas-web-2/800/500.jpg" alt="نمونه مفهومی طراحی وب‌سایت شرکتی مدرن و ریسپانسیو" loading="lazy" decoding="async" class="w-full aspect-[16/10] object-cover group-hover:scale-[1.03] transition-transform duration-700">
-        </div>
-        <div class="flex items-center justify-between mt-4">
-          <div><h3 class="font-bold">وب‌سایت شرکتی</h3><p class="text-xs text-cream/50 mt-1">نمونه‌ی مفهومی</p></div>
-          <span class="chip chip-sample">نمونه</span>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<div class="hairline" aria-hidden="true"></div>
-
-<!-- ============ تعرفه — پلن‌های توسعه ============ -->
-<section id="pricing" class="relative py-20 sm:py-28" aria-labelledby="pr-title">
-  <div class="container-x">
-    <div class="max-w-2xl" data-reveal>
-      <div class="flex items-center gap-3">
-        <span class="sec-rule"></span>
-        <span class="sec-eyebrow">پلن‌های توسعه</span>
-        <span class="sec-latin ms-auto" dir="ltr">DEPLOY PLANS</span>
-      </div>
-      <h2 id="pr-title" class="mt-5 font-extrabold leading-[1.45] text-[clamp(1.7rem,3.8vw,2.5rem)]">سایتتان را روی کدام محیط لانچ کنیم؟</h2>
-      <p class="mt-6 text-cream/65 leading-9">سه سطح مشخص؛ انتخاب با ما، تصمیم با شما. قیمت نهایی پس از مشاوره دقیق می‌شود.</p>
-    </div>
-
-    <!-- NOTE: قیمت‌ها placeholder هستند -->
-    <div class="grid md:grid-cols-3 gap-6 mt-14 items-stretch" data-reveal-group>
-      <article class="relative rounded-3xl p-7 glass gborder flex flex-col" data-reveal-item data-tilt>
-        <span class="glare" aria-hidden="true"></span>
-        <div class="flex items-center justify-between"><span class="env env-base">BASE</span><span class="num-latin" dir="ltr">01</span></div>
-        <h3 class="mt-4 text-lg font-extrabold">شرکتی پایه</h3>
-        <div class="mt-4 pb-5 border-b border-white/10">
-          <span class="text-xs text-cream/50">شروع از</span>
-          <div class="mt-1 text-2xl font-black text-gold-grad">۶۰٬۰۰۰٬۰۰۰ <span class="text-sm font-semibold">تومان</span></div>
-        </div>
-        <ul class="mt-5 space-y-3 text-sm text-cream/70 flex-1">
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>طراحی اختصاصی تا ۸ صفحه</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>ریسپانسیو + پنل محتوا</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>سئو فنی پایه</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>۶ ماه پشتیبانی</li>
-        </ul>
-        <a href="../contact.html" class="btn-ghost mt-7 w-full justify-center">انتخاب پایه</a>
-      </article>
-
-      <article class="price-card featured relative rounded-3xl p-7 glass gborder flex flex-col" data-reveal-item>
-        <span class="feat-badge">محبوب‌ترین</span>
-        <div class="flex items-center justify-between"><span class="env env-pro">PRO</span><span class="num-latin" dir="ltr">02</span></div>
-        <h3 class="mt-4 text-lg font-extrabold">شرکتی+ هویت‌محور</h3>
-        <div class="mt-4 pb-5 border-b border-white/10">
-          <span class="text-xs text-cream/50">شروع از</span>
-          <div class="mt-1 text-2xl font-black text-gold-grad">۹۵٬۰۰۰٬۰۰۰ <span class="text-sm font-semibold">تومان</span></div>
-        </div>
-        <ul class="mt-5 space-y-3 text-sm text-cream/70 flex-1">
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>طراحی اختصاصی بدون محدودیت صفحه</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>هماهنگ کامل با هویت بصری برند</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>ماژول‌های اختصاصی (فرم، اخبار، …)</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>سئو فنی پیشرفته</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>یک سال پشتیبانی</li>
-        </ul>
-        <a href="../contact.html" data-magnetic class="btn-primary mt-7 w-full justify-center">انتخاب پرو</a>
-      </article>
-
-      <article class="relative rounded-3xl p-7 glass gborder flex flex-col" data-reveal-item data-tilt>
-        <span class="glare" aria-hidden="true"></span>
-        <div class="flex items-center justify-between"><span class="env env-shop">SHOP</span><span class="num-latin" dir="ltr">03</span></div>
-        <h3 class="mt-4 text-lg font-extrabold">فروشگاهی</h3>
-        <div class="mt-4 pb-5 border-b border-white/10">
-          <span class="text-xs text-cream/50">شروع از</span>
-          <div class="mt-1 text-2xl font-black text-gold-grad">۱۳۰٬۰۰۰٬۰۰۰ <span class="text-sm font-semibold">تومان</span></div>
-        </div>
-        <ul class="mt-5 space-y-3 text-sm text-cream/70 flex-1">
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>همه‌ی امکانات PRO</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>مدیریت محصول، سفارش و انبار</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>درگاه پرداخت آنلاین</li>
-          <li class="flex gap-2.5"><svg class="ic w-4 h-4 text-gold mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>گزارش‌های فروش</li>
-        </ul>
-        <a href="../contact.html" class="btn-ghost mt-7 w-full justify-center">انتخاب فروشگاهی</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ============ خدمات دیگر — تب‌ها ============ -->
-<section class="relative py-20" aria-labelledby="other-title">
-  <div class="container-x">
-    <p class="sec-eyebrow" data-reveal>تب جدید باز کنیم؟</p>
-    <h2 id="other-title" class="mt-4 font-extrabold text-[clamp(1.5rem,3.4vw,2.2rem)]" data-reveal>خدمات دیگر سی یاس</h2>
-    <div class="mt-8 flex flex-wrap gap-4" data-reveal>
-      <a href="print-packaging.html" class="group glass gborder rounded-full px-6 py-3.5 flex items-center gap-3 hover:border-gold/50 transition-colors">
-        <svg class="ic text-gold-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-package"/></svg>
-        <span class="font-bold">چاپ و بسته‌بندی</span>
-        <svg class="ic w-4 h-4 text-gold-light/60 group-hover:-translate-x-1 transition-transform" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arr-left"/></svg>
-      </a>
-      <a href="logo-design.html" class="group glass gborder rounded-full px-6 py-3.5 flex items-center gap-3 hover:border-gold/50 transition-colors">
-        <svg class="ic text-gold-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-logo"/></svg>
-        <span class="font-bold">طراحی لوگو</span>
-        <svg class="ic w-4 h-4 text-gold-light/60 group-hover:-translate-x-1 transition-transform" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arr-left"/></svg>
-      </a>
-      <a href="industrial-teaser.html" class="group glass gborder rounded-full px-6 py-3.5 flex items-center gap-3 hover:border-gold/50 transition-colors">
-        <svg class="ic text-gold-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-media"/></svg>
-        <span class="font-bold">تیزر صنعتی</span>
-        <svg class="ic w-4 h-4 text-gold-light/60 group-hover:-translate-x-1 transition-transform" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arr-left"/></svg>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CTA — ترمینال ============ -->
-<section class="relative py-20">
-  <div class="container-x">
-    <div class="max-w-2xl mx-auto bw" data-reveal>
-      <div class="bw-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span class="bw-url">siyas — terminal</span></div>
-      <div class="p-7 sm:p-10">
-        <div class="term" id="termBox">
-          <p class="ln"><span class="pr">$</span> <span class="tx" id="termCmd"></span><span class="caret" aria-hidden="true"></span></p>
-          <p class="ln"><span class="ok">✓</span> <span class="tx">بریفینگ دریافت شد</span></p>
-          <p class="ln"><span class="ok">✓</span> <span class="tx">تیم طراحی و توسعه آماده است</span></p>
-          <p class="ln"><span class="pr">→</span> <span class="tx">منتظر دستور شروعِ پروژه‌ی سایت شما هستیم…</span></p>
-        </div>
-        <a href="../contact.html" data-magnetic class="btn-primary mt-8">run — شروع پروژه</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer class="relative z-[1] pt-20 pb-10 overflow-hidden">
-  <span class="footer-watermark" dir="ltr" aria-hidden="true">SIYAS</span>
-  <div class="container-x relative">
-    <div class="grid md:grid-cols-12 gap-12">
-      <div class="md:col-span-5">
-        <a href="../index.html" class="flex items-center gap-3" aria-label="سی یاس">
-          <svg class="w-9 h-9" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-gem"/></svg>
-          <span class="flex flex-col leading-none">
-            <span class="text-xl font-extrabold">سی یاس</span>
-            <span class="font-latin text-[9px] tracking-[0.45em] text-gold/90 mt-1" dir="ltr">SIYAS</span>
-          </span>
-        </a>
-        <p class="mt-6 text-cream/60 leading-8 max-w-sm">جایی که برندها ماندگار می‌شوند؛ کانون آگهی و تبلیغات سی یاس، از سال ۱۳۸۹ در مشهد و تهران.</p>
-        <div class="mt-7 flex gap-3">
-          <a href="https://www.instagram.com/siyas.ir" aria-label="اینستاگرام سی یاس" class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"><svg class="ic" style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24"><use href="#i-instagram"/></svg></a>
-          <a href="https://t.me/siyas" aria-label="تلگرام سی یاس" class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"><svg class="ic" style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24"><use href="#i-telegram"/></svg></a>
-          <a href="https://www.linkedin.com/company/siyas" aria-label="لینکدین سی یاس" class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"><svg class="ic" style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24"><use href="#i-linkedin"/></svg></a>
-          <a href="https://wa.me/989156500016" aria-label="واتس‌اپ سی یاس" class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"><svg class="ic" style="width:1.1rem;height:1.1rem" viewBox="0 0 24 24"><use href="#i-whatsapp"/></svg></a>
-        </div>
-      </div>
-      <nav class="md:col-span-3" aria-label="دسترسی سریع">
-        <h3 class="font-bold text-sm text-gold-light">دسترسی سریع</h3>
-        <ul class="mt-5 space-y-3 text-sm text-cream/60">
-          <li><a href="../about.html" class="hover:text-gold-light transition-colors">درباره ما</a></li>
-          <li><a href="../index.html#services" class="hover:text-gold-light transition-colors">خدمات</a></li>
-          <li><a href="../index.html#pricing" class="hover:text-gold-light transition-colors">تعرفه‌ی خدمات</a></li>
-          <li><a href="../index.html#portfolio" class="hover:text-gold-light transition-colors">نمونه‌کارها</a></li>
-          <li><a href="../index.html#testimonials" class="hover:text-gold-light transition-colors">نظرات مشتریان</a></li>
-          <li><a href="../contact.html" class="hover:text-gold-light transition-colors">تماس با ما</a></li>
-        </ul>
-      </nav>
-      <nav class="md:col-span-4" aria-label="خدمات">
-        <h3 class="font-bold text-sm text-gold-light">خدمات</h3>
-        <ul class="mt-5 space-y-3 text-sm text-cream/60">
-          <li><a href="print-packaging.html" class="hover:text-gold-light transition-colors">چاپ و بسته‌بندی</a></li>
-          <li><a href="logo-design.html" class="hover:text-gold-light transition-colors">طراحی لوگو و هویت بصری</a></li>
-          <li><a href="industrial-teaser.html" class="hover:text-gold-light transition-colors">تولید تیزر صنعتی</a></li>
-          <li><span class="text-gold-light">طراحی سایت و برنامه‌نویسی</span></li>
-          <li><a href="../index.html#services" class="hover:text-gold-light transition-colors">تبلیغات محیطی و رسانه‌ای</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="hairline mt-14" aria-hidden="true"></div>
-    <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/40">
-      <p>© <span id="year">۱۴۰۳</span> کانون آگهی و تبلیغات سی یاس — تمامی حقوق محفوظ است.</p>
-      <p dir="ltr" class="font-latin tracking-[0.3em]">SIYAS ADVERTISING · EST. 2010</p>
-    </div>
-  </div>
-</footer>
-
-<div id="toast" role="status" aria-live="polite">
-  <div class="glass gborder rounded-2xl px-5 py-4 flex items-center gap-3 max-w-md">
-    <svg class="w-5 h-5 text-gold-light" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-check"/></svg>
-    <p id="toastMsg" class="text-sm text-cream/85 leading-7"></p>
-  </div>
-</div>
-
-<script>
-(function(){
-  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-  const boot = () => {
-
-    /* تایپ URL مرورگر */
-    const urlEl = document.getElementById('bwUrlText');
-    const full = 'siyas.ir/services/web-design';
-    if (urlEl) {
-      if (RM) urlEl.textContent = full;
-      else { let i = 0; const t = setInterval(() => {
-        urlEl.textContent = full.slice(0, ++i);
-        if (i >= full.length) clearInterval(t);
-      }, 60); }
-    }
-
-    /* مرحله‌ساز وایرفریم — همگام با اسکرول */
-    const wfSec = document.getElementById('wfSection');
-    const layers = Array.from(document.querySelectorAll('.wf-layer'));
-    const stepsUi = Array.from(document.querySelectorAll('.wf-step'));
-    const setStep = s => {
-      layers.forEach(l => l.classList.toggle('on', +l.dataset.step === s));
-      stepsUi.forEach(st => st.classList.toggle('on', +st.dataset.step === s));
-    };
-    if (wfSec) {
-      if (RM) setStep(2);
-      else {
-        const onScroll = () => {
-          const r = wfSec.getBoundingClientRect(), vh = innerHeight;
-          const p = clamp((vh * .85 - r.top) / (r.height + vh * .3), 0, 1);
-          setStep(p < .34 ? 0 : p < .67 ? 1 : 2);
-        };
-        addEventListener('scroll', onScroll, { passive: true });
-        addEventListener('resize', onScroll);
-        onScroll();
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "طراحی سایت و برنامه‌نویسی",
+            "serviceType": "طراحی و توسعه وب‌سایت",
+            "description": "طراحی و توسعه‌ی وب‌سایت‌های شرکتی و فروشگاهی مدرن",
+            "provider": { "@id": "https://www.siyas.ir/#organization" },
+            "areaServed": ["مشهد", "تهران"],
+            "url": "https://www.siyas.ir/services/web-design"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "خانه",
+                "item": "https://www.siyas.ir/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "خدمات",
+                "item": "https://www.siyas.ir/#services"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "طراحی سایت",
+                "item": "https://www.siyas.ir/services/web-design"
+              }
+            ]
+          }
+        ]
       }
-    }
+    </script>
 
-    /* اینسپکتور — اسکرول‌اسپای */
-    const items = Array.from(document.querySelectorAll('.insp-item'));
-    const map = {}; items.forEach(el => map[el.dataset.key] = el);
-    document.querySelectorAll('[data-insp]').forEach(sec => {
-      new IntersectionObserver(es => es.forEach(e => {
-        if (e.isIntersecting) {
-          items.forEach(i => i.classList.remove('on'));
-          const el = map[e.target.dataset.insp];
-          if (el) el.classList.add('on');
-        }
-      }), { rootMargin: '-35% 0px -55% 0px' }).observe(sec);
-    });
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"
+    ></script>
+    <script defer src="../assets/js/app.js"></script>
+  </head>
 
-    /* ترمینال CTA — تایپ دستور */
-    const term = document.getElementById('termBox');
-    const cmd = document.getElementById('termCmd');
-    if (term && cmd) {
-      const line = 'siyas start --project "corporate"';
-      const run = () => {
-        if (RM) { cmd.textContent = line; term.classList.add('show'); return; }
-        let i = 0;
-        const t = setInterval(() => {
-          cmd.textContent = line.slice(0, ++i);
-          if (i >= line.length) { clearInterval(t); setTimeout(() => term.classList.add('show'), 250); }
-        }, 55);
-      };
-      if (RM) run();
-      else new IntersectionObserver((es, o) => {
-        if (es[0].isIntersecting) { run(); o.disconnect(); }
-      }, { threshold: .4 }).observe(term);
-    }
-  };
-  if (document.readyState !== 'loading') boot();
-  else document.addEventListener('DOMContentLoaded', boot);
-})();
-</script>
-</body>
+  <body class="antialiased">
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <linearGradient id="gradGold" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#f0d48d" />
+          <stop offset="1" stop-color="#c9a15a" />
+        </linearGradient>
+      </defs>
+      <symbol id="i-gem" viewBox="0 0 24 24">
+        <path stroke="url(#gradGold)" d="M6 3h12l4 6-10 13L2 9l4-6z" />
+        <path stroke="url(#gradGold)" d="M11 3 8 9l4 13 4-13-3-6" />
+        <path stroke="url(#gradGold)" d="M2 9h20" />
+      </symbol>
+      <symbol id="i-package" viewBox="0 0 24 24">
+        <path d="M12 3 20 7.5v9L12 21l-8-4.5v-9L12 3z" />
+        <path d="M12 12 20 7.5M12 12 4 7.5M12 12v9" />
+      </symbol>
+      <symbol id="i-logo" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="3.2" />
+        <path
+          d="M3 12c2.6-4.2 6-6.3 9-6.3s6.4 2.1 9 6.3c-2.6 4.2-6 6.3-9 6.3S5.6 16.2 3 12z"
+        />
+      </symbol>
+      <symbol id="i-media" viewBox="0 0 24 24">
+        <rect x="2.5" y="6.5" width="13" height="11" rx="2.5" />
+        <path d="M15.5 10.5 21 7.5v9l-5.5-3" />
+      </symbol>
+      <symbol id="i-web" viewBox="0 0 24 24">
+        <rect x="3" y="4.5" width="18" height="15" rx="2.5" />
+        <path d="M3 9h18" />
+        <path d="M6.5 6.75h.01M9.5 6.75h.01" />
+        <path d="m9.8 12.2-1.8 1.8 1.8 1.8M14.2 12.2l1.8 1.8-1.8 1.8" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 3 19 5.8v5.4c0 4.6-3 7.6-7 9-4-1.4-7-4.4-7-9V5.8L12 3z" />
+        <path d="m9 11.6 2.1 2.1 4.2-4.2" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24">
+        <path d="m4.5 12.5 5 5L19.5 6.5" />
+      </symbol>
+      <symbol id="i-arr-left" viewBox="0 0 24 24">
+        <path d="M19 12H5M11 6l-6 6 6 6" />
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" />
+        <circle cx="12" cy="12" r="3.8" />
+        <circle cx="17" cy="7" r=".7" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="i-telegram" viewBox="0 0 24 24">
+        <path d="M22 2 11 13" />
+        <path d="M22 2 15 22l-4-9-9-4 22-2z" />
+      </symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="3" />
+        <path d="M8 11v5M8 7.5v.01M12 16v-5" />
+        <path d="M12 11c.6-1.6 4-1.8 4 .6V16" />
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M12 3a9 9 0 0 0-7.9 13.3L3 21l4.8-1.1A9 9 0 1 0 12 3z" />
+        <path
+          d="M9.2 8.5c.3-.6 1.4-.7 1.7.1l.5 1.2c.1.3 0 .5-.2.7l-.5.5c.5 1.1 1.4 2 2.5 2.5l.5-.5c.2-.2.5-.3.7-.2l1.3.6c.7.3.6 1.3.1 1.6-.7.5-1.7.7-2.7.4-1.7-.5-3.4-1.8-4.4-3.6-.7-1.3-.8-2.4-.5-3.3z"
+        />
+      </symbol>
+    </svg>
+
+    <div class="orb orb-gold" aria-hidden="true"></div>
+    <div class="orb orb-blue" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div id="progressBar" aria-hidden="true"></div>
+    <div id="cDot" aria-hidden="true"></div>
+    <div id="cRing" aria-hidden="true"></div>
+
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only fixed top-3 start-3 z-[500] bg-gold text-ink px-4 py-2 rounded-lg text-sm"
+      >پرش به محتوا</a
+    >
+
+    <header id="siteNav" class="fixed top-0 inset-x-0 z-50">
+      <div class="container-x">
+        <div
+          class="nav-inner mt-4 rounded-2xl h-16 flex items-center justify-between px-4 sm:px-6"
+        >
+          <a
+            href="../index.html"
+            class="flex items-center gap-3"
+            aria-label="سی یاس — صفحه‌ی اصلی"
+          >
+            <svg class="w-8 h-8" viewBox="0 0 24 24" aria-hidden="true">
+              <use href="#i-gem" />
+            </svg>
+            <span class="flex flex-col leading-none">
+              <span class="text-lg font-extrabold">سی یاس</span>
+              <span
+                class="font-latin text-[9px] tracking-[0.45em] text-gold/90 mt-1"
+                dir="ltr"
+                >SIYAS</span
+              >
+            </span>
+          </a>
+          <nav
+            class="hidden lg:flex items-center gap-8"
+            aria-label="ناوبری اصلی"
+          >
+            <a
+              href="../index.html"
+              class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2"
+              >خانه</a
+            >
+            <a
+              href="../about.html"
+              class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2"
+              >درباره ما</a
+            >
+            <a
+              href="../index.html#services"
+              class="nav-link active text-sm text-cream/75 hover:text-cream transition-colors py-2"
+              >خدمات</a
+            >
+            <a
+              href="../index.html#portfolio"
+              class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2"
+              >نمونه‌کارها</a
+            >
+            <a
+              href="../contact.html"
+              class="nav-link text-sm text-cream/75 hover:text-cream transition-colors py-2"
+              >تماس با ما</a
+            >
+          </nav>
+          <div class="flex items-center gap-3">
+            <a
+              href="../contact.html"
+              data-magnetic
+              class="btn-primary btn-sm hidden sm:inline-flex"
+              >مشاوره رایگان</a
+            >
+            <button
+              id="menuBtn"
+              class="lg:hidden p-2"
+              aria-label="بازکردن منو"
+              aria-expanded="false"
+              aria-controls="mobileMenu"
+            >
+              <span class="burger"><i></i><i></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="mobileMenu" aria-label="منوی موبایل">
+      <nav class="flex flex-col gap-1" aria-label="ناوبری موبایل">
+        <a href="../index.html" class="m-link m-item">خانه</a>
+        <a href="../about.html" class="m-link m-item">درباره ما</a>
+        <a href="../index.html#services" class="m-link m-item">خدمات</a>
+        <a href="../index.html#portfolio" class="m-link m-item">نمونه‌کارها</a>
+        <a href="../contact.html" class="m-link m-item">تماس با ما</a>
+      </nav>
+      <div class="m-item mt-auto pt-10">
+        <a href="../contact.html" class="btn-primary w-full justify-center"
+          >مشاوره رایگان</a
+        >
+        <p class="text-center text-xs text-cream/45 mt-6" dir="ltr">
+          www.siyas.ir
+        </p>
+      </div>
+    </div>
+
+    <main id="main" class="relative z-[1]">
+      <!-- ============ HERO — داخل مرورگر ============ -->
+      <section class="relative pt-32 sm:pt-36 pb-16">
+        <div class="container-x">
+          <div class="max-w-4xl mx-auto" data-reveal>
+            <div class="bw">
+              <div class="bw-bar">
+                <span class="dots" aria-hidden="true"
+                  ><i></i><i></i><i></i
+                ></span>
+                <span class="bw-url"
+                  ><span id="bwUrlText"></span
+                  ><span class="caret" id="bwCaret" aria-hidden="true"></span
+                ></span>
+              </div>
+              <div class="pixbg p-8 sm:p-12 text-center">
+                <p class="num-latin" dir="ltr">
+                  SERVICE 04 / 04 — WEB WORKSHOP
+                </p>
+                <h1
+                  class="mt-3 font-black leading-[1.3] text-[clamp(2.2rem,5.4vw,3.6rem)]"
+                >
+                  طراحی <span class="gold-word">سایت</span> و برنامه‌نویسی
+                </h1>
+                <p class="mt-4 text-lg font-bold text-royal-light">
+                  ویترین دیجیتالِ برند شما
+                </p>
+                <p class="mt-5 text-cream/70 leading-9 max-w-xl mx-auto">
+                  وب‌سایتی سریع، امن و ریسپانسیو — دقیقاً به اندازه‌ی هویت
+                  بصری‌تان اختصاصی؛ از وایرفریم تا لانچ و پشتیبانی، همه‌ی مراحل
+                  شفاف و قابل‌رصد.
+                </p>
+                <div class="mt-8 flex flex-wrap justify-center gap-4">
+                  <a href="../contact.html" data-magnetic class="btn-primary"
+                    >استارت پروژه</a
+                  >
+                  <a href="#pricing" data-magnetic class="btn-ghost"
+                    >پلن‌های توسعه</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 flex flex-wrap justify-center gap-3" data-reveal>
+              <span
+                class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2"
+              >
+                <svg
+                  class="ic w-3.5 h-3.5 text-royal-light"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <use href="#i-web" /></svg
+                >ریسپانسیو کامل</span
+              >
+              <span
+                class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2"
+              >
+                <svg
+                  class="ic w-3.5 h-3.5 text-royal-light"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <use href="#i-shield" /></svg
+                >امنیت و پشتیبانی</span
+              >
+              <span
+                class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2"
+              >
+                <svg
+                  class="ic w-3.5 h-3.5 text-royal-light"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <use href="#i-gem" /></svg
+                >UI/UX اختصاصی</span
+              >
+              <span
+                class="badge-f glass gborder rounded-full px-4 py-2 text-xs text-cream/75 flex items-center gap-2"
+              >
+                <svg
+                  class="ic w-3.5 h-3.5 text-royal-light"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <use href="#i-check" /></svg
+                >سئو فنی پایه</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="hairline" aria-hidden="true"></div>
+
+      <!-- ============ وایرفریم تا لانچ ============ -->
+      <section
+        id="wfSection"
+        class="relative py-20 sm:py-28"
+        aria-labelledby="wf-title"
+      >
+        <div class="container-x">
+          <div class="max-w-2xl" data-reveal>
+            <div class="flex items-center gap-3">
+              <span class="sec-rule"></span>
+              <span class="sec-eyebrow">پروسه‌ی ساخت — زنده</span>
+              <span class="sec-latin ms-auto" dir="ltr">BUILD PIPELINE</span>
+            </div>
+            <h2
+              id="wf-title"
+              class="mt-5 font-extrabold leading-[1.45] text-[clamp(1.8rem,4vw,2.7rem)]"
+            >
+              از وایرفریم تا لانچ
+            </h2>
+            <p class="mt-6 text-cream/65 leading-9">
+              با اسکرول در این بخش، سه مرحله‌ی ساختِ صفحه را همان‌طور که پیش
+              می‌روید، ببینید.
+            </p>
+          </div>
+
+          <div class="max-w-4xl mx-auto mt-12" data-reveal>
+            <div class="wf" id="wfStage" aria-hidden="true">
+              <div class="wf-layer wf-wire on" data-step="0">
+                <div
+                  class="wf-box"
+                  style="
+                    height: 1.6rem;
+                    width: 38%;
+                    background: rgba(245, 243, 238, 0.05);
+                  "
+                ></div>
+                <div class="wf-box hero-slot"></div>
+                <div
+                  style="
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 1rem;
+                  "
+                >
+                  <div class="wf-box" style="height: 3.4rem"></div>
+                  <div class="wf-box" style="height: 3.4rem"></div>
+                  <div class="wf-box" style="height: 3.4rem"></div>
+                </div>
+              </div>
+              <div class="wf-layer wf-design" data-step="1">
+                <div
+                  class="wf-box flex items-center gap-2 px-3"
+                  style="
+                    height: 1.6rem;
+                    width: 38%;
+                    background: rgba(201, 161, 90, 0.1);
+                    border: 1px solid rgba(201, 161, 90, 0.3);
+                  "
+                >
+                  <svg class="w-3 h-3 text-gold-light" viewBox="0 0 24 24">
+                    <use href="#i-gem" />
+                  </svg>
+                  <span class="h-1 w-14 rounded bg-white/20"></span>
+                </div>
+                <div
+                  class="wf-box hero-slot flex flex-col items-center justify-center gap-2"
+                  style="
+                    background: linear-gradient(
+                      160deg,
+                      rgba(201, 161, 90, 0.12),
+                      rgba(59, 123, 255, 0.06)
+                    );
+                    border: 1px solid rgba(201, 161, 90, 0.28);
+                  "
+                >
+                  <span class="h-2 w-32 rounded bg-white/25"></span>
+                  <span class="h-1.5 w-20 rounded bg-white/15"></span>
+                </div>
+                <div
+                  style="
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 1rem;
+                  "
+                >
+                  <div
+                    class="wf-box"
+                    style="
+                      height: 3.4rem;
+                      background: rgba(59, 123, 255, 0.08);
+                      border: 1px solid rgba(59, 123, 255, 0.25);
+                    "
+                  ></div>
+                  <div
+                    class="wf-box"
+                    style="
+                      height: 3.4rem;
+                      background: rgba(59, 123, 255, 0.08);
+                      border: 1px solid rgba(59, 123, 255, 0.25);
+                    "
+                  ></div>
+                  <div
+                    class="wf-box"
+                    style="
+                      height: 3.4rem;
+                      background: rgba(59, 123, 255, 0.08);
+                      border: 1px solid rgba(59, 123, 255, 0.25);
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="wf-layer wf-live" data-step="2">
+                <div
+                  class="wf-box flex items-center gap-2 px-3"
+                  style="
+                    height: 1.6rem;
+                    width: 38%;
+                    background: rgba(201, 161, 90, 0.12);
+                  "
+                >
+                  <svg class="w-3 h-3 text-gold-light" viewBox="0 0 24 24">
+                    <use href="#i-gem" />
+                  </svg>
+                  <span class="h-1 w-14 rounded bg-gold/50"></span>
+                </div>
+                <div
+                  class="wf-box hero-slot flex flex-col items-center justify-center gap-2.5"
+                  style="
+                    background: linear-gradient(
+                      160deg,
+                      rgba(201, 161, 90, 0.18),
+                      rgba(59, 123, 255, 0.09)
+                    );
+                  "
+                >
+                  <svg class="w-8 h-8" viewBox="0 0 24 24">
+                    <use href="#i-gem" />
+                  </svg>
+                  <span class="h-2 w-36 rounded bg-white/30"></span>
+                  <span class="h-1.5 w-24 rounded bg-white/20"></span>
+                  <span
+                    class="h-2 w-24 rounded-full mt-1"
+                    style="
+                      background: linear-gradient(135deg, #f0d48d, #c9a15a);
+                    "
+                  ></span>
+                </div>
+                <div
+                  style="
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 1rem;
+                  "
+                >
+                  <div
+                    class="wf-box flex flex-col gap-1.5 p-2 justify-center"
+                    style="height: 3.4rem; background: rgba(59, 123, 255, 0.1)"
+                  >
+                    <span class="h-1 w-8 rounded bg-gold/60"></span
+                    ><span class="h-1 w-12 rounded bg-white/20"></span>
+                  </div>
+                  <div
+                    class="wf-box flex flex-col gap-1.5 p-2 justify-center"
+                    style="height: 3.4rem; background: rgba(59, 123, 255, 0.1)"
+                  >
+                    <span class="h-1 w-8 rounded bg-gold/60"></span
+                    ><span class="h-1 w-12 rounded bg-white/20"></span>
+                  </div>
+                  <div
+                    class="wf-box flex flex-col gap-1.5 p-2 justify-center"
+                    style="height: 3.4rem; background: rgba(59, 123, 255, 0.1)"
+                  >
+                    <span class="h-1 w-8 rounded bg-gold/60"></span
+                    ><span class="h-1 w-12 rounded bg-white/20"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wf-steps" aria-hidden="true">
+              <span class="wf-step on" data-step="0"><i></i>وایرفریم</span>
+              <span class="wf-step" data-step="1"><i></i>طراحی رابط</span>
+              <span class="wf-step" data-step="2"><i></i>اجراه‌ی زنده</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="hairline" aria-hidden="true"></div>
+
+      <!-- ============ اینسپکتور ویژگی‌ها ============ -->
+      <section class="relative py-20 sm:py-28" aria-labelledby="insp-title">
+        <div class="container-x">
+          <div class="grid lg:grid-cols-[1fr,300px] gap-12">
+            <div>
+              <div class="max-w-xl" data-reveal>
+                <div class="flex items-center gap-3">
+                  <span class="sec-rule"></span>
+                  <span class="sec-eyebrow">ویژگی‌های استاندارد</span>
+                </div>
+                <h2
+                  id="insp-title"
+                  class="mt-5 font-extrabold leading-[1.45] text-[clamp(1.8rem,4vw,2.7rem)]"
+                >
+                  چه چیزهایی، پیش‌فرضِ هر پروژه است؟
+                </h2>
+              </div>
+
+              <div class="mt-10 space-y-14">
+                <article data-insp="responsive" data-reveal>
+                  <span class="key-chip">responsive</span>
+                  <h3 class="mt-3 text-xl font-extrabold">ریسپانسیو کامل</h3>
+                  <p class="mt-3 text-cream/65 leading-9 max-w-xl">
+                    از موبایل تا مانیتور بزرگ؛ طراحی و تست روی تمام اندازه‌های
+                    رایج، با اولویتِ تجربه‌ی موبایل.
+                  </p>
+                </article>
+                <article data-insp="performance" data-reveal>
+                  <span class="key-chip">performance</span>
+                  <h3 class="mt-3 text-xl font-extrabold">سرعت و کارایی</h3>
+                  <p class="mt-3 text-cream/65 leading-9 max-w-xl">
+                    کد بهینه، تصاویر فشرده و بارگذاری هوشمند — چون هر ثانیه‌ی
+                    تأخیر، مشتری می‌برد.
+                  </p>
+                </article>
+                <article data-insp="cms" data-reveal>
+                  <span class="key-chip">cms</span>
+                  <h3 class="mt-3 text-xl font-extrabold">پنل مدیریت محتوا</h3>
+                  <p class="mt-3 text-cream/65 leading-9 max-w-xl">
+                    خودتان محتوای سایت را به‌روز کنید؛ بدون نیاز به ما، بدون
+                    نیاز به کدنویسی.
+                  </p>
+                </article>
+                <article data-insp="seo" data-reveal>
+                  <span class="key-chip">seo</span>
+                  <h3 class="mt-3 text-xl font-extrabold">سئو فنی پایه</h3>
+                  <p class="mt-3 text-cream/65 leading-9 max-w-xl">
+                    ساختار معنایی، متاها، سایت‌مپ و سرعت — پایه‌ای که دیده‌شدن
+                    شما در گوگل روی آن ساخته می‌شود.
+                  </p>
+                </article>
+                <article data-insp="security" data-reveal>
+                  <span class="key-chip">security</span>
+                  <h3 class="mt-3 text-xl font-extrabold">امنیت</h3>
+                  <p class="mt-3 text-cream/65 leading-9 max-w-xl">
+                    HTTPS، پشتیبان‌گیری و سخت‌سازی استاندارد — سایتِ شما، قلعه‌ی
+                    شما.
+                  </p>
+                </article>
+                <article data-insp="support" data-reveal>
+                  <span class="key-chip">support</span>
+                  <h3 class="mt-3 text-xl font-extrabold">آموزش و پشتیبانی</h3>
+                  <p class="mt-3 text-cream/65 leading-9 max-w-xl">
+                    تحویل با آموزش تیم شما؛ و همراهی توافق‌شده پس از لانچ — بدون
+                    بهانه‌ی فنی.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <aside class="hidden lg:block" aria-hidden="true">
+              <div class="insp glass gborder">
+                <p class="insp-h">FEATURES — INSPECTOR</p>
+                <div class="space-y-1">
+                  <p class="insp-item on" data-key="responsive">responsive</p>
+                  <p class="insp-item" data-key="performance">performance</p>
+                  <p class="insp-item" data-key="cms">cms</p>
+                  <p class="insp-item" data-key="seo">seo</p>
+                  <p class="insp-item" data-key="security">security</p>
+                  <p class="insp-item" data-key="support">support</p>
+                </div>
+                <p class="insp-h mt-4 pt-3 border-t border-white/10">
+                  STATUS: <span class="text-gold-light">INCLUDED</span>
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div class="hairline" aria-hidden="true"></div>
+
+      <!-- ============ کارهای مرتبط — پنجره‌های مینی ============ -->
+      <section class="relative py-20 sm:py-28" aria-labelledby="rel-title">
+        <div class="container-x">
+          <div
+            class="flex flex-wrap items-end justify-between gap-6"
+            data-reveal
+          >
+            <div>
+              <span class="sec-eyebrow">تب‌های بازِ دیگران</span>
+              <h2
+                id="rel-title"
+                class="mt-4 font-extrabold leading-[1.45] text-[clamp(1.7rem,3.8vw,2.5rem)]"
+              >
+                نمونه‌کارهای طراحی سایت
+              </h2>
+            </div>
+            <a href="../index.html?cat=web#portfolio" class="svc-link group"
+              >آرشیو کامل
+              <svg
+                class="ic w-4 h-4 transition-transform group-hover:-translate-x-1"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-arr-left" /></svg
+            ></a>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-8 mt-12" data-reveal-group>
+            <a
+              href="../index.html?cat=web#portfolio"
+              class="group block"
+              data-reveal-item
+            >
+              <div class="bw">
+                <div class="bw-bar">
+                  <span class="dots" aria-hidden="true"
+                    ><i></i><i></i><i></i
+                  ></span>
+                  <span class="bw-url">congress-hospital.ir</span>
+                </div>
+                <img
+                  src="https://picsum.photos/seed/siyas-web-1/800/500.jpg"
+                  alt="وب‌سایت کنگره‌ی ملی ساخت بیمارستان و مدیریت منابع و تجهیزات پزشکی تهران"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full aspect-[16/10] object-cover group-hover:scale-[1.03] transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-center justify-between mt-4">
+                <div>
+                  <h3 class="font-bold">وب‌سایت کنگره‌ی ملی ساخت بیمارستان</h3>
+                  <p class="text-xs text-cream/50 mt-1">کنگره‌ی ملی — تهران</p>
+                </div>
+                <span class="chip">طراحی سایت</span>
+              </div>
+            </a>
+            <a
+              href="../index.html?cat=web#portfolio"
+              class="group block"
+              data-reveal-item
+            >
+              <div class="bw">
+                <div class="bw-bar">
+                  <span class="dots" aria-hidden="true"
+                    ><i></i><i></i><i></i
+                  ></span>
+                  <span class="bw-url">corporate-demo.ir</span>
+                </div>
+                <img
+                  src="https://picsum.photos/seed/siyas-web-2/800/500.jpg"
+                  alt="نمونه مفهومی طراحی وب‌سایت شرکتی مدرن و ریسپانسیو"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full aspect-[16/10] object-cover group-hover:scale-[1.03] transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-center justify-between mt-4">
+                <div>
+                  <h3 class="font-bold">وب‌سایت شرکتی</h3>
+                  <p class="text-xs text-cream/50 mt-1">نمونه‌ی مفهومی</p>
+                </div>
+                <span class="chip chip-sample">نمونه</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="hairline" aria-hidden="true"></div>
+
+      <!-- ============ تعرفه — پلن‌های توسعه ============ -->
+      <section
+        id="pricing"
+        class="relative py-20 sm:py-28"
+        aria-labelledby="pr-title"
+      >
+        <div class="container-x">
+          <div class="max-w-2xl" data-reveal>
+            <div class="flex items-center gap-3">
+              <span class="sec-rule"></span>
+              <span class="sec-eyebrow">پلن‌های توسعه</span>
+              <span class="sec-latin ms-auto" dir="ltr">DEPLOY PLANS</span>
+            </div>
+            <h2
+              id="pr-title"
+              class="mt-5 font-extrabold leading-[1.45] text-[clamp(1.7rem,3.8vw,2.5rem)]"
+            >
+              سایتتان را روی کدام محیط لانچ کنیم؟
+            </h2>
+            <p class="mt-6 text-cream/65 leading-9">
+              سه سطح مشخص؛ انتخاب با ما، تصمیم با شما. قیمت نهایی پس از مشاوره
+              دقیق می‌شود.
+            </p>
+          </div>
+
+          <!-- NOTE: قیمت‌ها placeholder هستند -->
+          <div
+            class="grid md:grid-cols-3 gap-6 mt-14 items-stretch"
+            data-reveal-group
+          >
+            <article
+              class="relative rounded-3xl p-7 glass gborder flex flex-col"
+              data-reveal-item
+              data-tilt
+            >
+              <span class="glare" aria-hidden="true"></span>
+              <div class="flex items-center justify-between">
+                <span class="env env-base">BASE</span
+                ><span class="num-latin" dir="ltr">01</span>
+              </div>
+              <h3 class="mt-4 text-lg font-extrabold">شرکتی پایه</h3>
+              <div class="mt-4 pb-5 border-b border-white/10">
+                <span class="text-xs text-cream/50">شروع از</span>
+                <div class="mt-1 text-2xl font-black text-gold-grad">
+                  ۶۰٬۰۰۰٬۰۰۰ <span class="text-sm font-semibold">تومان</span>
+                </div>
+              </div>
+              <ul class="mt-5 space-y-3 text-sm text-cream/70 flex-1">
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >طراحی اختصاصی تا ۸ صفحه
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >ریسپانسیو + پنل محتوا
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >سئو فنی پایه
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >۶ ماه پشتیبانی
+                </li>
+              </ul>
+              <a
+                href="../contact.html"
+                class="btn-ghost mt-7 w-full justify-center"
+                >انتخاب پایه</a
+              >
+            </article>
+
+            <article
+              class="price-card featured relative rounded-3xl p-7 glass gborder flex flex-col"
+              data-reveal-item
+            >
+              <span class="feat-badge">محبوب‌ترین</span>
+              <div class="flex items-center justify-between">
+                <span class="env env-pro">PRO</span
+                ><span class="num-latin" dir="ltr">02</span>
+              </div>
+              <h3 class="mt-4 text-lg font-extrabold">شرکتی+ هویت‌محور</h3>
+              <div class="mt-4 pb-5 border-b border-white/10">
+                <span class="text-xs text-cream/50">شروع از</span>
+                <div class="mt-1 text-2xl font-black text-gold-grad">
+                  ۹۵٬۰۰۰٬۰۰۰ <span class="text-sm font-semibold">تومان</span>
+                </div>
+              </div>
+              <ul class="mt-5 space-y-3 text-sm text-cream/70 flex-1">
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >طراحی اختصاصی بدون محدودیت صفحه
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >هماهنگ کامل با هویت بصری برند
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >ماژول‌های اختصاصی (فرم، اخبار، …)
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >سئو فنی پیشرفته
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >یک سال پشتیبانی
+                </li>
+              </ul>
+              <a
+                href="../contact.html"
+                data-magnetic
+                class="btn-primary mt-7 w-full justify-center"
+                >انتخاب پرو</a
+              >
+            </article>
+
+            <article
+              class="relative rounded-3xl p-7 glass gborder flex flex-col"
+              data-reveal-item
+              data-tilt
+            >
+              <span class="glare" aria-hidden="true"></span>
+              <div class="flex items-center justify-between">
+                <span class="env env-shop">SHOP</span
+                ><span class="num-latin" dir="ltr">03</span>
+              </div>
+              <h3 class="mt-4 text-lg font-extrabold">فروشگاهی</h3>
+              <div class="mt-4 pb-5 border-b border-white/10">
+                <span class="text-xs text-cream/50">شروع از</span>
+                <div class="mt-1 text-2xl font-black text-gold-grad">
+                  ۱۳۰٬۰۰۰٬۰۰۰ <span class="text-sm font-semibold">تومان</span>
+                </div>
+              </div>
+              <ul class="mt-5 space-y-3 text-sm text-cream/70 flex-1">
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >همه‌ی امکانات PRO
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >مدیریت محصول، سفارش و انبار
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >درگاه پرداخت آنلاین
+                </li>
+                <li class="flex gap-2.5">
+                  <svg
+                    class="ic w-4 h-4 text-gold mt-0.5"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <use href="#i-check" /></svg
+                  >گزارش‌های فروش
+                </li>
+              </ul>
+              <a
+                href="../contact.html"
+                class="btn-ghost mt-7 w-full justify-center"
+                >انتخاب فروشگاهی</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ خدمات دیگر — تب‌ها ============ -->
+      <section class="relative py-20" aria-labelledby="other-title">
+        <div class="container-x">
+          <p class="sec-eyebrow" data-reveal>تب جدید باز کنیم؟</p>
+          <h2
+            id="other-title"
+            class="mt-4 font-extrabold text-[clamp(1.5rem,3.4vw,2.2rem)]"
+            data-reveal
+          >
+            خدمات دیگر سی یاس
+          </h2>
+          <div class="mt-8 flex flex-wrap gap-4" data-reveal>
+            <a
+              href="print-packaging.html"
+              class="group glass gborder rounded-full px-6 py-3.5 flex items-center gap-3 hover:border-gold/50 transition-colors"
+            >
+              <svg
+                class="ic text-gold-light"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-package" />
+              </svg>
+              <span class="font-bold">چاپ و بسته‌بندی</span>
+              <svg
+                class="ic w-4 h-4 text-gold-light/60 group-hover:-translate-x-1 transition-transform"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-arr-left" />
+              </svg>
+            </a>
+            <a
+              href="logo-design.html"
+              class="group glass gborder rounded-full px-6 py-3.5 flex items-center gap-3 hover:border-gold/50 transition-colors"
+            >
+              <svg
+                class="ic text-gold-light"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-logo" />
+              </svg>
+              <span class="font-bold">طراحی لوگو</span>
+              <svg
+                class="ic w-4 h-4 text-gold-light/60 group-hover:-translate-x-1 transition-transform"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-arr-left" />
+              </svg>
+            </a>
+            <a
+              href="industrial-teaser.html"
+              class="group glass gborder rounded-full px-6 py-3.5 flex items-center gap-3 hover:border-gold/50 transition-colors"
+            >
+              <svg
+                class="ic text-gold-light"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-media" />
+              </svg>
+              <span class="font-bold">تیزر صنعتی</span>
+              <svg
+                class="ic w-4 h-4 text-gold-light/60 group-hover:-translate-x-1 transition-transform"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <use href="#i-arr-left" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CTA — ترمینال ============ -->
+      <section class="relative py-20">
+        <div class="container-x">
+          <div class="max-w-2xl mx-auto bw" data-reveal>
+            <div class="bw-bar">
+              <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="bw-url">siyas — terminal</span>
+            </div>
+            <div class="p-7 sm:p-10">
+              <div class="term" id="termBox">
+                <p class="ln">
+                  <span class="pr">$</span> <span class="tx" id="termCmd"></span
+                  ><span class="caret" aria-hidden="true"></span>
+                </p>
+                <p class="ln">
+                  <span class="ok">✓</span>
+                  <span class="tx">بریفینگ دریافت شد</span>
+                </p>
+                <p class="ln">
+                  <span class="ok">✓</span>
+                  <span class="tx">تیم طراحی و توسعه آماده است</span>
+                </p>
+                <p class="ln">
+                  <span class="pr">→</span>
+                  <span class="tx"
+                    >منتظر دستور شروعِ پروژه‌ی سایت شما هستیم…</span
+                  >
+                </p>
+              </div>
+              <a href="../contact.html" data-magnetic class="btn-primary mt-8"
+                >run — شروع پروژه</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="relative z-[1] pt-20 pb-10 overflow-hidden">
+      <span class="footer-watermark" dir="ltr" aria-hidden="true">SIYAS</span>
+      <div class="container-x relative">
+        <div class="grid md:grid-cols-12 gap-12">
+          <div class="md:col-span-5">
+            <a
+              href="../index.html"
+              class="flex items-center gap-3"
+              aria-label="سی یاس"
+            >
+              <svg class="w-9 h-9" viewBox="0 0 24 24" aria-hidden="true">
+                <use href="#i-gem" />
+              </svg>
+              <span class="flex flex-col leading-none">
+                <span class="text-xl font-extrabold">سی یاس</span>
+                <span
+                  class="font-latin text-[9px] tracking-[0.45em] text-gold/90 mt-1"
+                  dir="ltr"
+                  >SIYAS</span
+                >
+              </span>
+            </a>
+            <p class="mt-6 text-cream/60 leading-8 max-w-sm">
+              جایی که برندها ماندگار می‌شوند؛ کانون آگهی و تبلیغات سی یاس، از
+              سال ۱۳۸۹ در مشهد و تهران.
+            </p>
+            <div class="mt-7 flex gap-3">
+              <a
+                href="https://www.instagram.com/siyas.ir"
+                aria-label="اینستاگرام سی یاس"
+                class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"
+                ><svg
+                  class="ic"
+                  style="width: 1.1rem; height: 1.1rem"
+                  viewBox="0 0 24 24"
+                >
+                  <use href="#i-instagram" /></svg
+              ></a>
+              <a
+                href="https://t.me/siyas"
+                aria-label="تلگرام سی یاس"
+                class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"
+                ><svg
+                  class="ic"
+                  style="width: 1.1rem; height: 1.1rem"
+                  viewBox="0 0 24 24"
+                >
+                  <use href="#i-telegram" /></svg
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/siyas"
+                aria-label="لینکدین سی یاس"
+                class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"
+                ><svg
+                  class="ic"
+                  style="width: 1.1rem; height: 1.1rem"
+                  viewBox="0 0 24 24"
+                >
+                  <use href="#i-linkedin" /></svg
+              ></a>
+              <a
+                href="https://wa.me/989156500016"
+                aria-label="واتس‌اپ سی یاس"
+                class="icon-ring icon-round !w-11 !h-11 hover:border-gold/60 transition-colors"
+                ><svg
+                  class="ic"
+                  style="width: 1.1rem; height: 1.1rem"
+                  viewBox="0 0 24 24"
+                >
+                  <use href="#i-whatsapp" /></svg
+              ></a>
+            </div>
+          </div>
+          <nav class="md:col-span-3" aria-label="دسترسی سریع">
+            <h3 class="font-bold text-sm text-gold-light">دسترسی سریع</h3>
+            <ul class="mt-5 space-y-3 text-sm text-cream/60">
+              <li>
+                <a
+                  href="../about.html"
+                  class="hover:text-gold-light transition-colors"
+                  >درباره ما</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../index.html#services"
+                  class="hover:text-gold-light transition-colors"
+                  >خدمات</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../index.html#pricing"
+                  class="hover:text-gold-light transition-colors"
+                  >تعرفه‌ی خدمات</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../index.html#portfolio"
+                  class="hover:text-gold-light transition-colors"
+                  >نمونه‌کارها</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../index.html#testimonials"
+                  class="hover:text-gold-light transition-colors"
+                  >نظرات مشتریان</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../contact.html"
+                  class="hover:text-gold-light transition-colors"
+                  >تماس با ما</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="md:col-span-4" aria-label="خدمات">
+            <h3 class="font-bold text-sm text-gold-light">خدمات</h3>
+            <ul class="mt-5 space-y-3 text-sm text-cream/60">
+              <li>
+                <a
+                  href="print-packaging.html"
+                  class="hover:text-gold-light transition-colors"
+                  >چاپ و بسته‌بندی</a
+                >
+              </li>
+              <li>
+                <a
+                  href="logo-design.html"
+                  class="hover:text-gold-light transition-colors"
+                  >طراحی لوگو و هویت بصری</a
+                >
+              </li>
+              <li>
+                <a
+                  href="industrial-teaser.html"
+                  class="hover:text-gold-light transition-colors"
+                  >تولید تیزر صنعتی</a
+                >
+              </li>
+              <li>
+                <span class="text-gold-light">طراحی سایت و برنامه‌نویسی</span>
+              </li>
+              <li>
+                <a
+                  href="../index.html#services"
+                  class="hover:text-gold-light transition-colors"
+                  >تبلیغات محیطی و رسانه‌ای</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="hairline mt-14" aria-hidden="true"></div>
+        <div
+          class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/40"
+        >
+          <p>
+            © <span id="year">۱۴۰۳</span> کانون آگهی و تبلیغات سی یاس — تمامی
+            حقوق محفوظ است.
+          </p>
+          <p dir="ltr" class="font-latin tracking-[0.3em]">
+            SIYAS ADVERTISING · EST. 2010
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" role="status" aria-live="polite">
+      <div
+        class="glass gborder rounded-2xl px-5 py-4 flex items-center gap-3 max-w-md"
+      >
+        <svg
+          class="w-5 h-5 text-gold-light"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <use href="#i-check" />
+        </svg>
+        <p id="toastMsg" class="text-sm text-cream/85 leading-7"></p>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
+        const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+        const boot = () => {
+          /* تایپ URL مرورگر */
+          const urlEl = document.getElementById("bwUrlText");
+          const full = "siyas.ir/services/web-design";
+          if (urlEl) {
+            if (RM) urlEl.textContent = full;
+            else {
+              let i = 0;
+              const t = setInterval(() => {
+                urlEl.textContent = full.slice(0, ++i);
+                if (i >= full.length) clearInterval(t);
+              }, 60);
+            }
+          }
+
+          /* مرحله‌ساز وایرفریم — همگام با اسکرول */
+          const wfSec = document.getElementById("wfSection");
+          const layers = Array.from(document.querySelectorAll(".wf-layer"));
+          const stepsUi = Array.from(document.querySelectorAll(".wf-step"));
+          const setStep = (s) => {
+            layers.forEach((l) =>
+              l.classList.toggle("on", +l.dataset.step === s),
+            );
+            stepsUi.forEach((st) =>
+              st.classList.toggle("on", +st.dataset.step === s),
+            );
+          };
+          if (wfSec) {
+            if (RM) setStep(2);
+            else {
+              const onScroll = () => {
+                const r = wfSec.getBoundingClientRect(),
+                  vh = innerHeight;
+                const p = clamp(
+                  (vh * 0.85 - r.top) / (r.height + vh * 0.3),
+                  0,
+                  1,
+                );
+                setStep(p < 0.34 ? 0 : p < 0.67 ? 1 : 2);
+              };
+              addEventListener("scroll", onScroll, { passive: true });
+              addEventListener("resize", onScroll);
+              onScroll();
+            }
+          }
+
+          /* اینسپکتور — اسکرول‌اسپای */
+          const items = Array.from(document.querySelectorAll(".insp-item"));
+          const map = {};
+          items.forEach((el) => (map[el.dataset.key] = el));
+          document.querySelectorAll("[data-insp]").forEach((sec) => {
+            new IntersectionObserver(
+              (es) =>
+                es.forEach((e) => {
+                  if (e.isIntersecting) {
+                    items.forEach((i) => i.classList.remove("on"));
+                    const el = map[e.target.dataset.insp];
+                    if (el) el.classList.add("on");
+                  }
+                }),
+              { rootMargin: "-35% 0px -55% 0px" },
+            ).observe(sec);
+          });
+
+          /* ترمینال CTA — تایپ دستور */
+          const term = document.getElementById("termBox");
+          const cmd = document.getElementById("termCmd");
+          if (term && cmd) {
+            const line = 'siyas start --project "corporate"';
+            const run = () => {
+              if (RM) {
+                cmd.textContent = line;
+                term.classList.add("show");
+                return;
+              }
+              let i = 0;
+              const t = setInterval(() => {
+                cmd.textContent = line.slice(0, ++i);
+                if (i >= line.length) {
+                  clearInterval(t);
+                  setTimeout(() => term.classList.add("show"), 250);
+                }
+              }, 55);
+            };
+            if (RM) run();
+            else
+              new IntersectionObserver(
+                (es, o) => {
+                  if (es[0].isIntersecting) {
+                    run();
+                    o.disconnect();
+                  }
+                },
+                { threshold: 0.4 },
+              ).observe(term);
+          }
+        };
+        if (document.readyState !== "loading") boot();
+        else document.addEventListener("DOMContentLoaded", boot);
+      })();
+    </script>
+  </body>
 </html>
